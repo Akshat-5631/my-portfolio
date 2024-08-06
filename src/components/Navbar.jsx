@@ -1,5 +1,5 @@
 import React from 'react'; 
-import logo from "../assets/portfolioLogo.png";
+import logo from "../assets/profileLogo.png";
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {FaInstagram} from "react-icons/fa";
@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className=' mb-20 flex items-center justify-between py-6'>
         {/* LOGO START */}
         <div className='flex flex-shrink-0 items-center'>
-            <img className='mx-2 w-24 h-22' src={logo} alt='logo' ></img>
+            <img className='mx-2 h-26 w-20' src={logo} alt='logo' ></img>
         </div>
         {/* LOGO END */}
 
